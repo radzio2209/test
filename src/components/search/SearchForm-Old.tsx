@@ -14,7 +14,7 @@ function ResultsList(props: any) {
   return <p></p>;
 }
 
-function Window(props: { children: ReactElement }) {
+function Window(props: { children: ReactElement[] }) {
   return <div className="window">{props.children}</div>;
 }
 
@@ -57,6 +57,7 @@ export default function SearchForm() {
           <p>Jestem Dzieckiem</p>
         </Window>
       )}
+      
     </div>
   );
 }
